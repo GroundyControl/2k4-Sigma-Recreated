@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture2 "nature/gravelfloor004a"
+$basetexture "nature/rockwall001a"
+//"%tooltexture" "nature/blendrockgravel001a_tooltexture"
+$surfaceprop concrete
+
+//$bumpmap ""
+//$ssbump		1
+
+$seamless_scale 0.002
+}

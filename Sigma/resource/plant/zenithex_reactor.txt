@@ -1,0 +1,23 @@
+"ReactorStatus" {
+	"LabelOnline"		"#asw_ZenithexReactorOnlineLabel"
+	"EfficiencyOnline"		"900%"
+	"EnergyOnline"		"999,999,999 MW"
+	"Coolant1Online"		"0%"
+	"Coolant2Online"		"0%"
+	"Coolant3Online"		"0%"
+	"Temperature1Online"		"12c0344K"
+	"Temperature2Online"		"9d6K"
+	"Temperature3Online"		"2E0K"
+	"Temperature4Online"		"29aK"
+
+	"LabelOffline"		"#asw_SynTekReactorOfflineLabel"
+	"EfficiencyOffline"		"0%"
+	"EnergyOffline"		"0 MW"
+	"Coolant1Offline"		"74%"
+	"Coolant2Offline"		"82%"
+	"Coolant3Offline"		"99%"
+	"Temperature1Offline"		"295K"
+	"Temperature2Offline"		"295K"
+	"Temperature3Offline"		"110K"
+	"Temperature4Offline"		"295K"
+}

@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+$basetexture "scifi/scifi_rock"
+$basetexture2 "scifi/scifi_goo"
+//"%tooltexture" "swarm/BSP/RockGoo_tooltexture"
+$surfaceprop rock
+
+//$bumpmap ""
+//$ssbump		1
+
+$seamless_scale 0.002
+}

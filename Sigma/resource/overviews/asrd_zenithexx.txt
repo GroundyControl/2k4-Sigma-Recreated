@@ -1,0 +1,27 @@
+GAME
+{
+	// radar map position and scale
+	//original "pos_x"		"-11500"
+	"pos_x"		"-11500"
+	"pos_y"		"8173"
+	"scale"		"13.0"
+
+	// material used for the radar map (in the bottom left corner)
+	"material" 		"vgui/swarm/overviews/zenithexOverview"
+
+	// material used for the briefing map (shown before the mission starts)
+	"briefingmaterial" 	"vgui/swarm/overviews/zenithexOverview"
+
+	"mapyoffset"	"-60"
+
+	// Title of the mission
+	"missiontitle"		"Zenithex"
+	// Description text shown for the mission
+	"description"		"Command wants you to board the Zenithex and retrieve the ship data logs. Reports indicate a reactor meltdown in the ship's main drive, so if you can't stabilize it, get out with the data quick."
+	
+	// Mission image that shows when selecting this mission
+	"image"			"swarm/campaign/zenithex_campaignchooseimage"
+
+	"version"		"1"
+	"author"		"Ground Control"
+}

@@ -1,0 +1,15 @@
+
+VertexLitGeneric
+{
+
+$basetexture "ut2k4_stuff\crate\farcrycrate_tex"
+
+$bumpmap "dev/flat_normal"
+
+$phong 1
+$phongboost 2
+$phongexponent 50
+
+$phongfresnelranges "[1 3 10]"
+
+}

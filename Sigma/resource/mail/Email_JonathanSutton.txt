@@ -1,0 +1,20 @@
+GAME
+{
+// PDA belongs to Jonathan Sutton
+
+// Inbox
+
+"MailFrom1"	"From: Simon Clarke"
+"MailDate1"	"Date: 06/18/52"
+"MailSubject1"	"Subject: Re:Re: Missing Specimen"
+"MailBody1A"	"John,"
+"MailBody1B"	"Any luck finding it yet? I think the higher-ups are starting to catch on that they have recieved only one of their specimens so far."
+"MailBody1C"	"I don't care if you have to turn the place upside down. You find that damn egg!"
+
+"MailFrom2"	"From: Simon Clarke"
+"MailDate2"	"Date: 06/20/52"
+"MailSubject2"	"Subject: Barrels!"
+"MailBody2A"	"Okay, whoes the wise crack that left the explosive barrels in my office?."
+"MailBody2B"	"The last thing I need around here is to suddenly blow myself up."
+"MailBody2C"	""
+}
