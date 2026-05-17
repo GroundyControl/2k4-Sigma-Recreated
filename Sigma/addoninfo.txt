@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+     addonSteamAppID         630            
+     addontitle              "Sigma"
+     addonversion            4.4
+     addontagline            ""
+     addonauthor             "Ground Control"
+     addonSteamGroupName     "" 
+     addonauthorSteamID      ""
+     addonContent_Campaign   1 	            
+     addonURL0               ""
+     addonDescription        ""
+}

@@ -1,0 +1,18 @@
+GAME
+{
+	// radar map position and scale
+	"pos_x"		"-6354"
+	"pos_y"		"5930"
+	"scale"		"7.50"
+	"material" 		"vgui/Overviews/sigma1_map"  			
+	"briefingmaterial" 	"vgui/Overviews/sigma1_map"
+	"missiontitle"		"Reactor Core"
+	"description"		"Strange signals coming from far facility"
+	
+	// Mission image that shows when selecting this mission
+	"image"			"Swarm\MissionPics\sigma1_mission_image"  			//must be under "vgui" - dont include vgui in the path
+
+	"version"		"1"
+	"author"		"Ground Control"
+	"website"		"Steam"
+}

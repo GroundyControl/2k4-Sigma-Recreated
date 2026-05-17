@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+ "$basetexture" "vgui/Overviews/sigma1_map"
+ "$vertexcolor" 1
+ "$translucent" 1
+ "$ignorez" 1
+ "$vertexalpha" 1
+}

@@ -1,0 +1,133 @@
+GAME
+{
+	// identifier for this campaign
+	"CampaignName" "Sigma Campaign Remake"
+	
+	// description shown on the main menu when choosing which campaign to play
+	"CampaignDescription" "Remake of the 2k4 Alien Swarm campaign Sigma."
+	
+	// texture used on the main menu when choosing which campaign to play
+	"ChooseCampaignTexture" "sigmamainlogo"
+	
+	// texture used on the campaign screen for the map
+	"CampaignTextureName" "sigmaCampaignScreenMap"
+	
+	// these textures are overlaid on top of the campaign map in order
+	"CampaignTextureLayer1" "swarm/Campaign/CampaignMap_EmptyLayer"
+	"CampaignTextureLayer2" "swarm/Campaign/CampaignMap_EmptyLayer"
+	"CampaignTextureLayer3" "swarm/Campaign/CampaignMap_EmptyLayer"
+
+	// custom campaign credits file
+	"CustomCreditsFile" 	"resource/sigmaCredits"
+
+	// position of this campaign in the galactic map (coords go from 0 to 1023)
+	"GalaxyX"   "650"
+	"GalaxyY"   "362"
+
+	// first mission entry is a dummy for the starting point
+	"MISSION"
+	{
+		"MissionName"		"Drop Zone"
+		"MapName"		"start_area"
+		"LocationX"		"430"
+		"LocationY"		"430"
+		"DifficultyModifier" 	"-2"
+		"Links"			"rd-sigma_reactor_core" 
+		"LocationDescription"  	"Drop Zone"
+		"ShortBriefing"  	"Landing station from standard orbital entry."
+	}
+	
+	// each mission listed
+	"MISSION"
+	{
+		"MissionName"		"Reactor Core"
+		"MapName"		"rd-sigma_reactor_core"
+		"LocationX"		"490"
+		"LocationY"		"370"
+		"ThreatString" 		"Soldier-class"
+		"Links"			"start_area rd-sigma_barracks"
+		"LocationDescription" 	"Power Plant"
+		"ShortBriefing"  	"The primary reactor that supplies the surrounding facilities has been severely damaged. Estimate an 85% chance of critical failure. You must activate the emergency cooling systems."
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Barracks"
+		"MapName"		"rd-sigma_barracks"
+		"LocationX"		"560"
+		"LocationY"		"340"
+		"ThreatString" 		"Soldier-class"
+		"Links"			"rd-sigma_reactor_core rd-sigma_rescue"
+		"LocationDescription" 	"PDF Barracks"
+		"ShortBriefing"  	"The first of our primary targets is the Planetary Defense Force barracks. Command needs a full copy of the data stored in their tactical systems."
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Rescue"
+		"MapName"		"rd-sigma_rescue"
+		"LocationX"		"650"
+		"LocationY"		"345"
+		"ThreatString" 		"Soldier and parasite"
+		"Links"			"rd-sigma_barracks rd-sigma_salvage"
+		"LocationDescription" 	"SynTek Storage"
+		"ShortBriefing"  	"A valued Interstellar Armed Forces officer is trapped in a SynTek warehouse crawling with parasites. Your job is to get him out alive."
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Salvage"
+		"MapName"		"rd-sigma_salvage"
+		"LocationX"		"620"
+		"LocationY"		"410"
+		"ThreatString" 		"Soldier and parasite"
+		"Links"			"rd-sigma_rescue rd-sigma_research"
+		"LocationDescription" 	"SynTek Warehouse"
+		"ShortBriefing"  	": The main warehouse could allow us to establish an important forward base and resupply point for the campaign. Proceed to the warehouse compound and assess the value of the facility."
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Research"
+		"MapName"		"rd-sigma_research"
+		"LocationX"		"540"
+		"LocationY"		"450"
+		"ThreatString" 		"Soldier and parasite"
+		"Links"			"rd-sigma_salvage rd-sigma_uplink"
+		"LocationDescription" 	"SynTek Science Labs"
+		"ShortBriefing"  	"Command is interested in the nature of SynTek's research on Sigma 612. Using the information supplied by Lt. Williams, we have located the corporation's main medical facilities."
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Uplink"
+		"MapName"		"rd-sigma_uplink"
+		"LocationX"		"470"
+		"LocationY"		"460"
+		"ThreatString" 		"Flier-class"
+		"Links"			"rd-sigma_research rd-sigma_observation"
+		"LocationDescription" 	"Comms. Post"
+		"ShortBriefing"  	"Command must be made aware of the information recovered from SynTek's medical facilities. To achieve this, you must bring the facility's rooftop satellite uplink online."
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION"
+	{
+		"MissionName"		"Observation"
+		"MapName"		"rd-sigma_observation"
+		"LocationX"		"670"
+		"LocationY"		"420"
+		"ThreatString" 		"Soldier-class"
+		"Links"			"rd-sigma_uplink"
+		"LocationDescription" 	"Observation Post"
+		"ShortBriefing"  	"Sigma 612's Deep Space Observatory is our final target. Command requires a complete copy of the facility's data archives."
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+
+}
