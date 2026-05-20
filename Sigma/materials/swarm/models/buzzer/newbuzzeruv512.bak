@@ -1,0 +1,15 @@
+patch
+{
+include "materials/models/aliens/genericAlien_selfIllum.vmt"
+insert
+{
+$baseTexture "swarm\models\Buzzer\NewbuzzerUV512"
+$bumpmap "swarm\models\Buzzer\NewbuzzerUV512_normal"
+$selfillum "1"
+
+$phong 1
+$phongexponent 115
+$phongboost 18
+$phongfresnelranges "[.1 .5 1]"
+}
+

@@ -1,0 +1,13 @@
+patch
+{
+include "materials/models/aliens/genericAlien_selfIllum.vmt"
+insert
+{
+$baseTexture "swarm\models\ShieldBug\ShieldTexDif4"
+$bumpmap "swarm\models\ShieldBug\shieldnormal2"
+$selfillum 1
+$phong 1
+$phongexponent 115
+$phongboost 18
+$phongfresnelranges "[.1 .5 1]"
+}

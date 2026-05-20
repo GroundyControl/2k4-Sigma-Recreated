@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "swarm/models/Mortarbug/MortarProjectileSkin"
+$bumpmap "swarm/models/Mortarbug/MortarProjectileSkin_normal"
+$normalmapalphaenvmapmask 1
+$surfaceprop alienflesh
+$selfillum 1
+}

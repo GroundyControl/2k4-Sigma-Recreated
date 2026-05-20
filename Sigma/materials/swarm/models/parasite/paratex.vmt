@@ -1,0 +1,12 @@
+patch
+{
+include "materials/models/aliens/genericAlien_selfIllum.vmt"
+insert
+{
+$basetexture "swarm\models\Parasite\paraTEX"
+$bumpmap "swarm\models\Parasite\paraTEX_normal"
+$phong 1
+$phongexponent 115
+$phongboost 18
+$phongfresnelranges "[.1 .5 1]"
+}

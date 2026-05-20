@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "swarm\models\drone\DroneWing"
+$surfaceprop metal
+$translucent 1
+$nodecal 1
+$nofog
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

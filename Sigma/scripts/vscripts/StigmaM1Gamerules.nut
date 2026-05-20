@@ -1,3 +1,14 @@
+/*
+// This is all obsolete code that isn't used anymore due to having custom models with custom names that can be assigned in hammer.
+//
+// Code for custom alien models asigned during gameplay
+// using Update() it looks for alien entities without a name and gives them one based on an incrementing counter
+// (this is bad because there is a entity limit, though they are removed when they are killed.)
+// (But it can still be laggy with many aliens)
+//
+// Once an alien is named they are given the i/o to be killed (deleted) when they die. This is because the models were pretty glitchy and not removing the corpses.
+// The other half of this code is just looking for alien entity classnames and changing their models. A process which happens during gameplay.
+
 NewAlienModels_t <- {};
 
 // key - alien entity classname
@@ -123,6 +134,8 @@ function Update()
 	return 0.0;
 }
 
+*/
+
 function OnGameEvent_player_say(params)
 {
     local msg = params.text.tolower();
@@ -172,7 +185,7 @@ function cam2k4()
 	
         // Enable 2k4-style topdown
         Convars.SetValue("fog_enable", 1);
-        Convars.SetValue("asw_cam_marine_dist", 500);
+        Convars.SetValue("asw_cam_marine_dist", 400);
         Convars.SetValue("asw_cam_marine_dist_death", 400);
         Convars.SetValue("asw_cam_marine_pitch", 90);
 	

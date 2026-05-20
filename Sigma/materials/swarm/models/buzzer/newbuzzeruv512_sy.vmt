@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+$basetexture "swarm\models\Buzzer\NewbuzzerUV512"
+$bumpmap "swarm\models\Buzzer\NewbuzzerUV512_normal"
+$surfaceprop alienflesh
+$envmap "swarm\models\Buzzer\buzzenv01"
+$normalmapalphaenvmapmask 1
+
+$detail "effects/model_layer_ice_1.vtf"
+$detailscale 5
+$detailblendfactor 0.0
+$detailblendmode 5
+Proxies
+{
+AnimatedTexture
+{
+animatedtexturevar $detail
+animatedtextureframenumvar $detailframe
+animatedtextureframerate 30
+}
+AlienSurfaceFX
+{
+}
+}
+}

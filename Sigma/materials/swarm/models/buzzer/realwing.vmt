@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+$basetexture "swarm\models\Buzzer\RealWing"
+$surfaceprop metal
+$translucent 1
+
+
+
+
+
+
+
+
+/sineperiod 0.1
+
+
+
+
+}

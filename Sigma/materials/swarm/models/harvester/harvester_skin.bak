@@ -1,0 +1,13 @@
+patch
+{
+include "materials/models/aliens/genericAlien_selfIllum.vmt"
+insert
+{
+$basetexture "swarm\models\harvester\Harvester_skin"
+$bumpmap "swarm\models\harvester\Harvester_skin_normal"
+$selfillum 1
+$phong 1
+$phongexponent 115
+$phongboost 18
+$phongfresnelranges "[.1 .5 1]"
+}

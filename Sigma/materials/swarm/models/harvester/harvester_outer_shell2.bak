@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+$basetexture "swarm\models\harvester\Harvester_outer_shell2"
+$surfaceprop flesh
+$alpha 0.66
+$envmap env_cubemap
+$basealphaenvmapmask 0.5
+$envmaptint "[ 0.6 0.6 0.6]"
+$selfillum 1
+$detail "effects/model_layer_ice_1.vtf"
+$detailscale 5
+$detailblendfactor 0.0
+$detailblendmode 5
+Proxies
+{
+AnimatedTexture
+{
+animatedtexturevar $detail
+animatedtextureframenumvar $detailframe
+animatedtextureframerate 30
+}
+AlienSurfaceFX
+{
+}
+}
+}

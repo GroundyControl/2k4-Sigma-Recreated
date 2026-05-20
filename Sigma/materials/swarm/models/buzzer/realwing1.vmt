@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "swarm\models\Buzzer\RealWing1"
+$surfaceprop alienflesh
+$translucent 1
+}

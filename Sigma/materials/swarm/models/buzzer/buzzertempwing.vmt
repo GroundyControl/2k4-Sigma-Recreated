@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+$basetexture "swarm\models\Buzzer\BuzzerTempWing"
+$surfaceprop alienflesh
+$translucent 1
+Proxies
+{
+
+Sine
+{
+
+
+resultVar $alpha
+sineperiod 0.1
+sinemin 0
+sinemax 1
+}
+}
+}

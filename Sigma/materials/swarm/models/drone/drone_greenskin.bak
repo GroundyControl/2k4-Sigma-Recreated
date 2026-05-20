@@ -1,0 +1,16 @@
+patch
+{
+include "materials/models/aliens/genericAlien_selfIllum.vmt"
+insert
+{
+$baseTexture "swarm\models\drone/Drone_greenskin"
+$bumpmap "swarm\models\drone/drone_blackredskin_normal"
+$selfillum 1
+$nodecal 1
+$phong 1
+$phongexponent 115
+$phongboost 18
+$phongfresnelranges "[.1 .5 1]"
+
+}
+
